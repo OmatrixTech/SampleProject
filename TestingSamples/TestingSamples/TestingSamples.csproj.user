@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup />
+  <ItemGroup>
+    <ApplicationDefinition Update="App.xaml">
+      <SubType>Designer</SubType>
+    </ApplicationDefinition>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Update="FilesDiffControls\DifferenceViewerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FilesDiffControls\DiffViewerWindow.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FilesDiffControls\InlineDiffViewerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Update="FilesDiffControls\InternalLinesViewerView.xaml.cs">
+      <SubType>Code</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Page Update="FilesDiffControls\DifferenceViewerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FilesDiffControls\DiffViewerWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FilesDiffControls\InlineDiffViewerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="FilesDiffControls\InternalLinesViewerView.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Update="MainWindow.xaml">
+      <SubType>Designer</SubType>
+    </Page>
+  </ItemGroup>
+</Project>

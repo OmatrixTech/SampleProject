@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Configuration>
+	<ApplicationSettings>
+		<AppName>YourApp</AppName>
+		<AppVersion>2.5.0</AppVersion>
+		<LogLevel>Debug</LogLevel>
+	</ApplicationSettings>
+
+	<Modules>
+		<Module name="ModuleA">
+			<Enabled>true</Enabled>
+			<Options>
+				<Option key="Option1">Value1</Option>
+				<Option key="Option2">Value2</Option>
+			</Options>
+		</Module>
+		<Module name="ModuleB">
+			<Enabled>false</Enabled>
+			<Options>
+				<Option key="Option3">Value3</Option>
+				<Option key="Option4">Value4</Option>
+			</Options>
+		</Module>
+	</Modules>
+
+	<DatabaseConnections>
+		<Connection name="MainDatabase">
+			<Server>localhost</Server>
+			<Port>1433</Port>
+			<DatabaseName>MainDB</DatabaseName>
+			<Credentials>
+				<Username>user123</Username>
+				<Password>securePassword</Password>
+			</Credentials>
+		</Connection>
+		<Connection name="BackupDatabase">
+			<Server>backupserver</Server>
+			<Port>1521</Port>
+			<DatabaseName>BackupDB</DatabaseName>
+			<Credentials>
+				<Username>backupuser</Username>
+				<Password>backupPassword</Password>
+			</Credentials>
+		</Connection>
+	</DatabaseConnections>
+
+	<UserPreferences>
+		<Theme>Dark</Theme>
+		<FontSize>14</FontSize>
+		<Language>English</Language>
+		<AutoSaveEnabled>true</AutoSaveEnabled>
+	</UserPreferences>
+</Configuration>
