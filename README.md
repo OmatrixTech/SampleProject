@@ -1,4 +1,4 @@
-# SampleProject and details#
+# Details of Sample Project#
 
 ==>Ensuring Your Application Always Runs in Administrator Mode: A Step-by-Step Guide
 
